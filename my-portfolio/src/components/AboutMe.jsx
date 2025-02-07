@@ -15,7 +15,7 @@ const AboutMe = () => {
               <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 p-6 rounded-xl text-lg mb-4 w-10/12  mx-auto md:text-xl">
                 <h2 className="font-semibold text-primary text-center">My Programming Journey:</h2>
                 <p>
-                  My journey in programming started in [Year] when I first encountered HTML and CSS. I was captivated by how
+                  My journey in programming started in 2022 when I first encountered HTML and CSS. I was captivated by how
                   websites come to life with just a few lines of code. From there, I moved on to learning JavaScript, which
                   opened up a whole new world of dynamic, interactive web development. Over time, I dived into React, Tailwind CSS,
                   and other modern front-end tools, which I now use to build responsive, user-friendly web applications.
