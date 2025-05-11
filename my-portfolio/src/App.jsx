@@ -1,13 +1,12 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe'
-import ContactSection from './components/contactSection'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
-import ProjectSection from './components/ProjectSection'
 import Skills from './components/Skills'
 import SocialLinks from './components/SocialLinks'
+import ProjectSection from './components/ProjectSection'
 
 function App() {
   
@@ -18,9 +17,8 @@ function App() {
     <section id="home">
       <HeroSection />
     </section>
-    <section id="social-links">
-      <SocialLinks />
-    </section>
+    <div className='bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a]'>
+     
     <section id="about">
       <AboutMe />
     </section>
@@ -28,11 +26,14 @@ function App() {
       <Skills />
     </section>
     <section id="projects">
-      <ProjectSection />
+      <ProjectSection></ProjectSection>
     </section>
     <section id="contact">
-      <ContactSection />
+      <SocialLinks></SocialLinks>
     </section>
+    
+
+    </div>
     <Footer />
   </>
   
